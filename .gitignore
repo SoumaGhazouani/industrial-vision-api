@@ -1,0 +1,25 @@
+# Virtual Environment
+venv/
+.env
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data Directory - Ignore all content
+data/**/*
+
+# Do NOT ignore .gitkeep files (to keep the folder structure)
+!**/.gitkeep
+
+# Model weights and API outputs
+outputs/
+*.pth
+*.onnx
+*.weights
+
+# IDE Settings
+.vscode/
+.idea/
+*.swp
