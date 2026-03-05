@@ -1,5 +1,5 @@
 # Virtual Environment
-venv/
+vision-api/
 .env
 
 # Python Bytecode & Cache
